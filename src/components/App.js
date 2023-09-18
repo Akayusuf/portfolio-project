@@ -1,11 +1,9 @@
-import HeaderPage from'./HeaderPage'
-import Project from '../components/ProjectPage';
+import ProjectPage from './projectPage'
 
 function App () {
   return(
     <div>
-      <HeaderPage/>
-      <Project />
+      <ProjectPage />
       </div>
   );
 }
