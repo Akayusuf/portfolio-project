@@ -8,7 +8,7 @@
 }
 .header span{
     font-size:1.2rem;
-    font-weight:600;
+    font-weight:500;
     color:#E2D1F9;
 }
 .header button{
@@ -19,7 +19,11 @@
     background-color:#1018208a;
     letter-spacing: 0.1rem;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     cursor:pointer;
     text-transform: uppercase;
 }
+ button:hover{
+     color:#272726;
+     cursor:progress;
+    }

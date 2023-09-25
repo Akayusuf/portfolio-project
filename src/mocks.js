@@ -10,48 +10,48 @@ const projects = [
     },
 
     {
-        title: 'resturant portfolio',
+        title: 'Jewelry portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design2,
     },
 
     {
-        title: 'resturant portfolio',
+        title: 'Cosmetics portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design,
     },
     {
-        title: 'resturant portfolio',
+        title: 'Repairs portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design2,
     },
 
     {
-        title: 'resturant portfolio',
+        title: 'Office portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design,
     },
 
     {
-        title: 'resturant portfolio',
+        title: 'Sales portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design2,
     },
 
     {
-        title: 'resturant portfolio',
+        title: 'Store portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design,
     },
 
     {
-        title: 'resturant portfolio',
+        title: 'Gym portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
         image: design2,

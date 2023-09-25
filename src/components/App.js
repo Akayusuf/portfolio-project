@@ -1,10 +1,9 @@
-import ProjectPage from './projectPage'
+import { RouterProvider } from "react-router-dom";
+import router from "./router";
 
 function App () {
   return(
-    <div>
-      <ProjectPage />
-      </div>
+    <RouterProvider router = {router} />
   );
 }
 
