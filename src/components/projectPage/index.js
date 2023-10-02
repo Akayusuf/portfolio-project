@@ -1,5 +1,5 @@
 import Header from '../Header'
-import Portfolio from '../Portfolio'
+import Project from '../Project'
 import projects from '../../mocks'
 import './index.css'
 
@@ -10,12 +10,13 @@ const ProjectPage = () => {
 
              <div className="projectPage">{projects.map((index) => {
                     return(
-                        <Portfolio
+                        <Project
                             key = {index}
-                            image = {index.image}
+                            id = {index.id}
                             title = {index.title}
                             url = {index.url}
                             desc = {index.desc}
+                            image = {index.image}
                         />
                     )
                 })

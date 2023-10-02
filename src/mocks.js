@@ -1,63 +1,36 @@
-import design from '../src/components/images/design.avif'
-import design2 from '../src/components/images/design2.avif'
+import Design from './images/Design.avif'
 
-const projects = [
+const Projects = [
     {
+        id: 1,
         title: 'resturant portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
-        image: design,
+        image: Design,
     },
 
     {
+        id: 2,
         title: 'Jewelry portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
-        image: design2,
+        image: Design,
     },
 
     {
+        id: 3,
         title: 'Cosmetics portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
-        image: design,
+        image: Design,
     },
     {
+        id: 4,
         title: 'Repairs portfolio',
         url: 'www.resturant.com',
         desc: 'A simple web design of a resturant startup.',
-        image: design2,
-    },
-
-    {
-        title: 'Office portfolio',
-        url: 'www.resturant.com',
-        desc: 'A simple web design of a resturant startup.',
-        image: design,
-    },
-
-    {
-        title: 'Sales portfolio',
-        url: 'www.resturant.com',
-        desc: 'A simple web design of a resturant startup.',
-        image: design2,
-    },
-
-    {
-        title: 'Store portfolio',
-        url: 'www.resturant.com',
-        desc: 'A simple web design of a resturant startup.',
-        image: design,
-    },
-
-    {
-        title: 'Gym portfolio',
-        url: 'www.resturant.com',
-        desc: 'A simple web design of a resturant startup.',
-        image: design2,
-    },
-    
-    
+        image: Design,
+    }
 ];
 
-export default projects;
+export default Projects;

@@ -1,0 +1,59 @@
+.editPage{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height:50%;
+    row-gap: 0.8rem;
+    margin:6rem auto;
+    padding:1rem 3rem;
+    border: 0.2rem solid lightgray;
+    border-radius: 0.3rem;
+}
+.editPage input{
+    padding:1rem;
+    font-size:1rem;
+    box-sizing: border-box;
+  border: 0.2rem solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 0.3rem;
+  color:#1f1f1de3;
+}
+.editPage img{
+    width:100%;
+    background-color: #2b3035;
+}
+.editPage button{
+    padding:0.5rem;
+    font-size:1.2rem;
+    border: none;
+    color:#E7E8D1;
+    font-weight: 900;
+    background:linear-gradient(90deg, #2b3035,#9b90a8);
+    border-radius: 0.3rem;
+}
+.editPage textarea{
+    padding:0.1rem;
+    font-size:1rem;
+    box-sizing: border-box;
+  border: 0.2rem solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 0.3rem;
+  color:#1f1f1de3;
+}
+.editPage button:hover{
+    color:black;
+    background:#E7E8D1;
+    transition: all 0.6s;
+    transition-timing-function: ease-out;
+    cursor: progress;
+}
+
+.editadd{
+font-size:1.3rem;
+text-align: center;
+color:#1f1f1de3;
+}

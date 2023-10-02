@@ -1,14 +1,9 @@
 import  "./index.css"
-import Avatar from '../images/design.avif'
 import { useNavigate } from "react-router-dom";
 
-    const Portfolio = (props) => {
+    const Project = (props) => {
         const navigate = useNavigate();
-
-        const handleEdit = () => {
-            navigate ('/edit');
-        }
-
+    
         const handleDelete = () => {
             console.log('clicked delete');
         }
@@ -17,12 +12,13 @@ import { useNavigate } from "react-router-dom";
         <div>
             <div className= "project">
                 <div className = "project-content">
-                 <img src= {Avatar} alt ="web design"/>
+                 <img src= {props.image} alt ="web design"/>
                     <p>TITLE: {props.title}</p>
-                    <p>URL:   <a href = 'https://www.google.com'>{props.url}</a></p>
+                    <p>URL: <a href = {props.url}>{props.url}</a></p>
                     <p>DESCRIPTION:  {props.desc}</p>
                     <div className = 'btn'>
-                    <button onClick={handleEdit}>EDIT</button>
+                    <button onClick={(event) => { navigate(`/edit/${props.id}`)}
+                    }>EDIT</button>
                     <button onClick={handleDelete}>DELETE</button>
                 </div>
                 </div>
@@ -31,4 +27,4 @@ import { useNavigate } from "react-router-dom";
     );
     }
 
-export default Portfolio;
+export default Project;

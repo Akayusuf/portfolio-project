@@ -23,7 +23,7 @@
     cursor:pointer;
     text-transform: uppercase;
 }
- button:hover{
+.header button:hover{
      color:#272726;
      cursor:progress;
     }
