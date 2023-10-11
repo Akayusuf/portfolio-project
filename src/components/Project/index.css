@@ -1,19 +1,65 @@
 .project{  
+    border: 0.1rem solid #f1f1f1;
     margin-top:1.2rem;
-    border-radius:0.8rem;   
+    border-radius:0.8rem; 
+    background-color: transparent;
+    width:20rem;
+    height:26.5rem;  
+    display: flex;
+    justify-content: space-between;
+    perspective: 62.5rem;
+    overflow: hidden;
+}
+
+.front-flip img{
+    width:20rem;
+    height:100%;
+}
+
+.inner-flip{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.project:hover, .inner-flip{
+    transform: rotateY(360deg);
+}
+.inner-flip:hover{
+    transform: rotateY(180deg);
+}
+.front-flip, .project-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   
+}
+
+.front-flip{
+    background-color: #bbb;
+  color: black;
 }
 .project-content{
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.project-content{
+    background-color: #f0edede8;
     border:1px solid #bbb7b7e8;
     border-radius: 0.5em; 
     box-shadow:1px -1px 7px 1px rgba(245, 238, 245, 0.712);
     width:20rem;
-    margin:1rem 0;
-    overflow: hidden;   
+    height:100%; 
 }
 
 
 .project-content img{
-    width:100%;
+    width:20rem;
 }
 .project-content p {
     font-size:1.3rem;
@@ -24,6 +70,7 @@
 text-decoration: none;
 color:#3a3b3cc9;
 }
+
  a:hover{
     color:#272726;
     cursor:progress;

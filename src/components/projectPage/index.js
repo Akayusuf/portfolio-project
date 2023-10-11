@@ -6,6 +6,7 @@ import './index.css'
 const ProjectPage = () => {
     return (
         <div>
+            <div>hello world</div>
             <Header />
 
              <div className="projectPage">{projects.map((index) => {
