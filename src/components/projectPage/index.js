@@ -2,11 +2,12 @@ import Header from '../Header'
 import Project from '../Project'
 import projects from '../../mocks'
 import './index.css'
+import ProfilePage from '../ProfilePage'
 
 const ProjectPage = () => {
     return (
         <div>
-            <div>hello world</div>
+            <ProfilePage />
             <Header />
 
              <div className="projectPage">{projects.map((index) => {

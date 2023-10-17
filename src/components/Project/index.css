@@ -9,6 +9,7 @@
     justify-content: space-between;
     perspective: 62.5rem;
     overflow: hidden;
+    margin-bottom: 1rem; 
 }
 
 .front-flip img{

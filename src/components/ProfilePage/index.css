@@ -1,0 +1,89 @@
+.container{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+    height:100vh;
+    margin-bottom: 4rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name{
+    margin:0.5rem 2rem;
+    font-size:1.6rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.logo{
+    display: flex;
+    gap:1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right:1rem;
+}
+.icon{
+    height:3rem;
+    width:1.9rem;
+}
+.intro{
+    width:50rem;
+    margin:11rem auto;
+    display: flex;
+    gap:1rem;
+    justify-content:center;
+    align-items: center;
+}
+
+.intro-img{
+    width:25rem;
+}
+
+.intro-name{
+    font-size:2.5rem;
+    font-family: 'kanit', sans-serif;
+}
+
+.contacts{
+    display:flex;
+    justify-content: space-around;
+}
+.icon1{
+    height:1.2rem;
+    width:2rem
+}
+.design p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:'kanit', sans-serif;
+}
+.design a{
+    color:black;
+}
+
+.experties{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:'kanit', sans-serif;
+}
+.exp{
+    font-size:2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    font-family:'kanit', sans-serif;
+    text-align: center;
+}
+
+.exp1{
+    margin-bottom: 6rem;
+}
+
+.icon2{
+    height: 5rem;
+    width: 5rem;
+}
