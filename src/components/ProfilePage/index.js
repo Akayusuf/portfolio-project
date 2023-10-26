@@ -4,7 +4,6 @@ import html from '../../images/logo-html5.svg'
 import node from '../../images/logo-nodejs.svg'
 import react from '../../images/logo-react.svg'
 import git from '../../images/logo-github.svg'
-import discord from '../../images/logo-discord.svg'
 import twitter from '../../images/logo-twitter.svg'
 import linkedin from '../../images/logo-linkedin.svg'
 import facebook from '../../images/logo-facebook.svg'
@@ -16,11 +15,10 @@ const ProfilePage = () => {
                 <div className="nav">
                     <h1 className="nav-name">AFOLABI.</h1>
                     <div className="logo">
-                    <img src={git} atl='logos' className='icon'/>
-                    <img src={discord} atl='logos' className='icon' />
-                    <img src={twitter} atl='logos' className='icon' />
+                    <a href = 'https://github.com/Akayusuf' target='_blank'><img src={git} atl='logos' className='icon'/></a>
+                    <a href = 'https://twitter.com/Akharyusuf1' target='_blank'><img src={twitter} atl='logos' className='icon' /></a>
                     <img src={linkedin} atl='logos' className='icon' />
-                    <img src={facebook} atl='logos' className='icon' />
+                    <a href = 'https://facebook.com/Aka.yusuf.54' target='_blank'><img src={facebook} atl='logos' className='icon' /></a>
                     </div>
                 </div>
 
@@ -42,7 +40,7 @@ const ProfilePage = () => {
                     </div>
                     <div className="design">
                         <p className="option"> Drop your Message</p>
-                        <p><a href="xxx">Akayusuf10@gmail.com</a></p>
+                        <p><a href="mailto:akayusuf10@gmail.com">Akayusuf10@gmail.com</a></p>
                     </div>
                 </div>
             </div>
